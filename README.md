@@ -8,8 +8,6 @@
 Website ini merupakan proyek pembelajaran yang dibuat menggunakan **PHP native**, **MySQL**, dan **Bootstrap 5** dengan desain modern.  
 Tujuan utama website ini adalah untuk **menganalisis dan memahami beberapa celah keamanan pada aplikasi web**.
 
-Website ini **sengaja dibuat tidak aman** dan **tidak ditujukan untuk penggunaan produksi**, melainkan untuk keperluan tugas sekolah/kuliah dan presentasi.
-
 ---
 
 ## 2. Fitur Utama
@@ -22,9 +20,6 @@ Website memiliki fitur berikut:
 - Simulasi pembelian
 - Reset password
 - Halaman debug
-
-> **Catatan:**  
-> Persyaratan tugas terpenuhi karena terdapat **login** dan **minimal satu fitur setelah login**.
 
 ---
 
