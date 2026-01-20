@@ -19,7 +19,11 @@ Website memiliki fitur berikut:
 - Edit profil pengguna
 - Simulasi pembelian
 - Reset password
+<<<<<<< HEAD
 - Halaman User Information (Insecure Direct Object Reference)
+=======
+- Halaman debug
+>>>>>>> 822795e76914704c96dc3d146c9c82440c451eb5
 
 ---
 
@@ -114,4 +118,8 @@ async function exploit() {
 }
 
 exploit();
+<<<<<<< HEAD
 ```
+=======
+```
+>>>>>>> 822795e76914704c96dc3d146c9c82440c451eb5
