@@ -275,7 +275,7 @@ if (!isset($_SESSION['user'])) {
                 >
             </div>
 
-            <div class="form-group">
+            <!-- <div class="form-group">
                 <label class="form-label">
                     <i class="fas fa-user-tag"></i>
                     Role
@@ -287,7 +287,7 @@ if (!isset($_SESSION['user'])) {
                     placeholder="Masukkan role baru"
                     required
                 >
-            </div>
+            </div> -->
 
             <button type="submit" class="btn-submit">
                 <i class="fas fa-save"></i>

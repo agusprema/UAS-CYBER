@@ -72,7 +72,7 @@ if (isset($_SESSION['user'])) {
                     </div>
                     <div class="col-md-3">
                         <div class="border rounded p-3">
-                            🐞 Information Leak
+                            🐞 Insecure Direct Object Reference 
                         </div>
                     </div>
                 </div>
